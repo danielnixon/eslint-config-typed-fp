@@ -55,10 +55,14 @@ export = {
     "@typescript-eslint/no-implicit-any-catch": "error",
     // Don't need this given consistent-type-assertions bans type assertions entirely.
     "total-functions/no-unsafe-type-assertion": 0,
+    // All methods on the `object` top type should be forbidden, they're an OOism.
+    // TODO no-base-to-string catches `toString` at least, but `toLocaleString` and the rest should all be banned too.
+    "@typescript-eslint/no-base-to-string": "error",
     // TODO replace tslint's no-any and no-unsafe-any
     // See https://github.com/typescript-eslint/typescript-eslint/issues/791
     // TODO new rules:
-    // * Add a rule to enforce array `some`/`every` predicates return boolean https://github.com/typescript-eslint/typescript-eslint/issues/2428
+    // * [no-base-to-string] doesn't catch toLocaleString https://github.com/typescript-eslint/typescript-eslint/issues/2440
+    // * Enforce array `some`/`every` predicates return boolean https://github.com/typescript-eslint/typescript-eslint/issues/2428
     // * Optional properties lead to unsoundness https://github.com/danielnixon/eslint-plugin-total-functions/issues/39
     // * Force mutable function parameters to be invariant https://github.com/danielnixon/eslint-plugin-total-functions/issues/41
     // * Ban index signatures entirely https://github.com/danielnixon/eslint-plugin-total-functions/issues/61
