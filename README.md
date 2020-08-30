@@ -10,7 +10,9 @@ yarn add --dev eslint-config-typed-fp @typescript-eslint/eslint-plugin @typescri
 
 ## Usage
 
-Update your `.eslintrc.js`:
+1. Turn on TypeScript's [strict mode](https://www.typescriptlang.org/docs/handbook/compiler-options.html).
+2. Set up [ESLint + TypeScript](https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/README.md).
+3. Update your `.eslintrc.js`:
 
 ```diff
 module.exports = {
