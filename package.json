@@ -16,8 +16,10 @@
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^3.10.1",
-    "eslint": "^7.6.0",
+    "@typescript-eslint/parser": "^3.10.1",
+    "eslint": "^7.7.0",
     "eslint-config-prettier": "^6.11.0",
+    "eslint-config-typed-fp": "^0.0.1",
     "eslint-plugin-functional": "^3.0.2",
     "eslint-plugin-jest": "^23.20.0",
     "eslint-plugin-prettier": "^3.1.4",
