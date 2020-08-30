@@ -25,8 +25,8 @@ module.exports = {
   ...
   ],
   plugins: [
-+  "functional",
 +  "@typescript-eslint",
++  "functional",
 +  "total-functions",
   ...
 ],
