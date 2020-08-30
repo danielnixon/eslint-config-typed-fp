@@ -36,3 +36,7 @@ module.exports = {
 };
 
 ```
+
+## What's in the box?
+
+See the `extends` and `rules` sections in [index.ts](https://github.com/danielnixon/eslint-config-typed-fp/blob/master/src/index.ts).
