@@ -52,12 +52,15 @@ export = {
     // Interfaces encourage OO, types encourage FP.
     "@typescript-eslint/consistent-type-definitions": ["error", "type"],
     // Require unknown type annotation in catch blocks.
+    // See https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-implicit-any-catch.md
     "@typescript-eslint/no-implicit-any-catch": "error",
     // Don't need this given consistent-type-assertions bans type assertions entirely.
     "total-functions/no-unsafe-type-assertion": 0,
     // All methods on the `object` top type should be forbidden, they're an OOism.
     // TODO no-base-to-string catches `toString` at least, but `toLocaleString` and the rest should all be banned too.
     "@typescript-eslint/no-base-to-string": "error",
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-reduce-type-parameter.md
+    "@typescript-eslint/prefer-reduce-type-parameter": "error",
     // TODO replace tslint's no-any and no-unsafe-any
     // See https://github.com/typescript-eslint/typescript-eslint/issues/791
     // TODO new rules:
