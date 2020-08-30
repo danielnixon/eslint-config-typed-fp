@@ -40,3 +40,13 @@ module.exports = {
 ## What's in the box?
 
 See the `extends` and `rules` sections in [index.ts](https://github.com/danielnixon/eslint-config-typed-fp/blob/master/src/index.ts).
+
+
+## See Also
+
+* https://github.com/danielnixon/eslint-plugin-total-functions
+* https://github.com/danielnixon/readonly-types
+* https://github.com/danielnixon/total-functions
+* https://github.com/jonaskello/eslint-plugin-functional
+* https://github.com/gcanti/fp-ts
+* https://github.com/plantain-00/type-coverage
