@@ -5,7 +5,13 @@ An opinionated ESLint config to encourage pure(ish), typeful functional programm
 ## Installation
 
 ```sh
-yarn add --dev eslint-config-typed-fp @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-plugin-functional eslint-plugin-total-functions typescript
+yarn add --dev eslint-config-typed-fp \
+  @typescript-eslint/eslint-plugin \
+  @typescript-eslint/parser \
+  eslint \
+  eslint-plugin-functional \
+  eslint-plugin-total-functions \
+  typescript
 ```
 
 ## Usage
