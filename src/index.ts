@@ -59,8 +59,15 @@ export = {
     // All methods on the `object` top type should be forbidden, they're an OOism.
     // TODO no-base-to-string catches `toString` at least, but `toLocaleString` and the rest should all be banned too.
     "@typescript-eslint/no-base-to-string": "error",
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-reduce-type-parameter.md
+    // If someone happens to disable both consistent-type-assertions and no-unsafe-type-assertion, this rule will help show them that their
+    // type assertion is unnecessary in at least one case (calls to `reduce`).
+    // See https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-reduce-type-parameter.md
     "@typescript-eslint/prefer-reduce-type-parameter": "error",
+    // Force array predicates to return something that could be either truthy and falsy.
+    // TODO ideally this would be even stricter and require a actual boolean return type.
+    // See https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unnecessary-condition.md
+    // See also https://github.com/microsoft/TypeScript/issues/19456
+    "@typescript-eslint/no-unnecessary-condition": "error",
     // TODO replace tslint's no-any and no-unsafe-any
     // See https://github.com/typescript-eslint/typescript-eslint/issues/791
     // TODO new rules:
