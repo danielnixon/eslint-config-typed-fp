@@ -72,6 +72,7 @@ Here's a selection of articles to motivate "why typed FP":
 
 ## See Also
 
+* [TypeScript for Functional Programmers](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes-func.html)
 * https://github.com/danielnixon/eslint-plugin-total-functions
 * https://github.com/danielnixon/readonly-types
 * https://github.com/danielnixon/total-functions
