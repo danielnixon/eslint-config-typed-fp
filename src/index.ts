@@ -69,6 +69,8 @@ export = {
     // See also https://github.com/typescript-eslint/typescript-eslint/issues/1038
     // See also https://github.com/microsoft/TypeScript/issues/19456
     "@typescript-eslint/no-unnecessary-condition": "error",
+    // See https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/switch-exhaustiveness-check.md
+    "@typescript-eslint/switch-exhaustiveness-check": "error",
     // TODO replace tslint's no-any and no-unsafe-any
     // See https://github.com/typescript-eslint/typescript-eslint/issues/791
     // TODO new rules:
