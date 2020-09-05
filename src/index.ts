@@ -63,7 +63,7 @@ export = {
     // type assertion is unnecessary in at least one case (calls to `reduce`).
     // See https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-reduce-type-parameter.md
     "@typescript-eslint/prefer-reduce-type-parameter": "error",
-    // Force array predicates to return something that could be either truthy and falsy.
+    // Force array predicates to return something that could be either truthy or falsy.
     // TODO ideally this would be even stricter and require an actual boolean return type.
     // See https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unnecessary-condition.md
     // See also https://github.com/typescript-eslint/typescript-eslint/issues/1038
