@@ -64,15 +64,15 @@ export = {
     // See https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-reduce-type-parameter.md
     "@typescript-eslint/prefer-reduce-type-parameter": "error",
     // Force array predicates to return something that could be either truthy and falsy.
-    // TODO ideally this would be even stricter and require a actual boolean return type.
+    // TODO ideally this would be even stricter and require an actual boolean return type.
     // See https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unnecessary-condition.md
+    // See also https://github.com/typescript-eslint/typescript-eslint/issues/1038
     // See also https://github.com/microsoft/TypeScript/issues/19456
     "@typescript-eslint/no-unnecessary-condition": "error",
     // TODO replace tslint's no-any and no-unsafe-any
     // See https://github.com/typescript-eslint/typescript-eslint/issues/791
     // TODO new rules:
     // * [no-base-to-string] doesn't catch toLocaleString https://github.com/typescript-eslint/typescript-eslint/issues/2440
-    // * Enforce array `some`/`every` predicates return boolean https://github.com/typescript-eslint/typescript-eslint/issues/2428
     // * Optional properties lead to unsoundness https://github.com/danielnixon/eslint-plugin-total-functions/issues/39
     // * Force mutable function parameters to be invariant https://github.com/danielnixon/eslint-plugin-total-functions/issues/41
     // * Ban index signatures entirely https://github.com/danielnixon/eslint-plugin-total-functions/issues/61
