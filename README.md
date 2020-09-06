@@ -16,7 +16,7 @@ yarn add --dev eslint-config-typed-fp \
 
 ## Usage
 
-1. Turn on TypeScript's [strict mode](https://www.typescriptlang.org/docs/handbook/compiler-options.html).
+1. Turn on TypeScript's [strict mode](https://www.typescriptlang.org/tsconfig#strict).
 2. Set up [ESLint + TypeScript](https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/README.md).
 3. Update your `.eslintrc.js`:
 
