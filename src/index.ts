@@ -22,8 +22,10 @@ export = {
     "plugin:total-functions/recommended",
   ],
   rules: {
-    // Additional rules that are not part of `eslint:recommended`.
-    // See https://eslint.org/docs/rules/
+    /**
+     * Additional rules that are not part of `eslint:recommended`.
+     * See https://eslint.org/docs/rules/
+     */
     // eval is completely unsafe from a security point of view, but also from a type-safety point of view.
     "no-eval": "error",
     "no-implied-eval": "error",
@@ -34,7 +36,33 @@ export = {
     "no-caller": "error",
     "require-unicode-regexp": "error",
     "no-loss-of-precision": "error",
-    // Make typescript-eslint rules more aggressive.
+    /**
+     *  Custom rules.
+     */
+    "@typescript-eslint/ban-types": [
+      "error",
+      {
+        types: {
+          // Ban the type-unsafe built-in utility types because they're vulnerable to typos and to failing silently after a rename refactoring.
+          // See https://www.typescriptlang.org/docs/handbook/utility-types.html
+          // See https://github.com/pelotom/type-zoo#omitstrictt-k-extends-keyof-t
+          // See https://github.com/krzkaczor/ts-essentials#Comparison-between-Omit-and-StrictOmit
+          // TODO make this a real rule instead of using `ban-types`: https://github.com/danielnixon/eslint-plugin-total-functions/issues/74
+          Omit: {
+            fixWith: "OmitStrict",
+          },
+          Exclude: {
+            fixWith: "ExcludeStrict",
+          },
+          Extract: {
+            fixWith: "ExtractStrict",
+          },
+        },
+      },
+    ],
+    /**
+     * Make typescript-eslint rules more aggressive.
+     */
     "@typescript-eslint/consistent-type-assertions": [
       "error",
       {
