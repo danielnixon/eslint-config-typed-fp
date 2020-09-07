@@ -65,6 +65,9 @@ export = {
           },
           // Ban built-in mutable types.
           // See https://github.com/danielnixon/readonly-types
+          // TODO make this a real rule instead of using `ban-types` and `no-restricted-globals` (below).
+          // TODO don't flag Readonly<Record<...>> as an error (this will require a dedicated rule).
+          // See also https://github.com/jonaskello/eslint-plugin-functional/issues/150, which would make this moot.
           Record: {
             fixWith: "ReadonlyRecord",
             message:
