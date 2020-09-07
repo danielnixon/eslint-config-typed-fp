@@ -50,14 +50,62 @@ export = {
           // TODO make this a real rule instead of using `ban-types`: https://github.com/danielnixon/eslint-plugin-total-functions/issues/74
           Omit: {
             fixWith: "OmitStrict",
+            message:
+              "Omit is not type-safe. Prefer a strict version such as OmitStrict from the type-zoo package.",
           },
           Exclude: {
             fixWith: "ExcludeStrict",
+            message:
+              "Exclude is not type-safe. Prefer a strict version such as ExcludeStrict from the type-zoo package.",
           },
           Extract: {
             fixWith: "ExtractStrict",
+            message:
+              "Extract is not type-safe. Prefer a strict version such as ExtractStrict from the type-zoo package.",
+          },
+          // Ban built-in mutable types.
+          // See https://github.com/danielnixon/readonly-types
+          Record: {
+            fixWith: "ReadonlyRecord",
+            message:
+              "The Record type is mutable. Prefer ReadonlyRecord from the readonly-types package.",
+          },
+          URL: {
+            fixWith: "ReadonlyURL",
+            message:
+              "The URL type is mutable. Prefer ReadonlyURL from the readonly-types package.",
+          },
+          URLSearchParams: {
+            fixWith: "ReadonlyURLSearchParams",
+            message:
+              "The URLSearchParams type is mutable. Prefer ReadonlyURLSearchParams from the readonly-types package.",
+          },
+          Date: {
+            fixWith: "ReadonlyDate",
+            message:
+              "The Date type is mutable. Prefer ReadonlyDate from the readonly-types package.",
           },
         },
+      },
+    ],
+    // Ban built-in mutable (and partial!) constructors.
+    // See https://github.com/danielnixon/readonly-types
+    "no-restricted-globals": [
+      "error",
+      {
+        name: "URL",
+        message:
+          "The URL constructor is partial and URLs are mutable. Prefer readonlyURL from the readonly-types package.",
+      },
+      {
+        name: "URLSearchParams",
+        message:
+          "URLSearchParams are mutable. Prefer readonlyURLSearchParams from the readonly-types package.",
+      },
+      {
+        name: "Date",
+        message:
+          "Dates are mutable. Prefer readonlyDate and validReadonlyDate from the readonly-types package.",
       },
     ],
     /**
