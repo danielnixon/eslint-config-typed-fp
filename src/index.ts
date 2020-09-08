@@ -156,8 +156,10 @@ export = {
     "functional/prefer-readonly-type": [
       "error",
       {
-        // Slower but more thorough.
+        // When you call methods like `filter` and `concat` on an array (_even a readonly_ array) you always get back a mutable array.
+        // By default prefer-readonly-type won't catch these cases, but with the checkImplicit option on it will.
         // See https://github.com/jonaskello/eslint-plugin-functional/blob/master/docs/rules/prefer-readonly-type.md#checkimplicit
+        // See also https://github.com/danielnixon/readonly-types/issues/7
         checkImplicit: true,
       },
     ],
