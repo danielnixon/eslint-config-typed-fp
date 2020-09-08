@@ -88,6 +88,16 @@ export = {
             message:
               "The Date type is mutable. Prefer ReadonlyDate from the readonly-types package.",
           },
+          Map: {
+            fixWith: "ReadonlyMap",
+            message:
+              "The Map type is mutable. Prefer TypeScript's built-in ReadonlyMap.",
+          },
+          Set: {
+            fixWith: "ReadonlySet",
+            message:
+              "The Set type is mutable. Prefer TypeScript's built-in ReadonlySet.",
+          },
         },
       },
     ],
@@ -109,6 +119,16 @@ export = {
         name: "Date",
         message:
           "Dates are mutable. Prefer readonlyDate and validReadonlyDate from the readonly-types package.",
+      },
+      {
+        name: "Map",
+        message:
+          "Maps are mutable. Prefer readonlyMap from the readonly-types package.",
+      },
+      {
+        name: "Set",
+        message:
+          "Sets are mutable. Prefer readonlySet from the readonly-types package.",
       },
     ],
     /**
