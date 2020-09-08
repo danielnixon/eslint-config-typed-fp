@@ -88,6 +88,7 @@ export = {
             message:
               "The Date type is mutable. Prefer ReadonlyDate from the readonly-types package.",
           },
+          // TODO the Map and Set cases could be rendered moot if https://github.com/jonaskello/eslint-plugin-functional/issues/151 lands.
           Map: {
             fixWith: "ReadonlyMap",
             message:
@@ -120,6 +121,7 @@ export = {
         message:
           "Dates are mutable. Prefer readonlyDate and validReadonlyDate from the readonly-types package.",
       },
+      // TODO the Map and Set cases could be rendered moot if https://github.com/jonaskello/eslint-plugin-functional/issues/151 lands.
       {
         name: "Map",
         message:
