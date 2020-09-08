@@ -150,6 +150,17 @@ export = {
     "@typescript-eslint/no-unnecessary-condition": "error",
     // See https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/switch-exhaustiveness-check.md
     "@typescript-eslint/switch-exhaustiveness-check": "error",
+    /**
+     * Make eslint-plugin-functional rules more aggressive.
+     */
+    "functional/prefer-readonly-type": [
+      "error",
+      {
+        // Slower but more thorough.
+        // See https://github.com/jonaskello/eslint-plugin-functional/blob/master/docs/rules/prefer-readonly-type.md#checkimplicit
+        checkImplicit: true,
+      },
+    ],
     // TODO replace tslint's no-any and no-unsafe-any
     // See https://github.com/typescript-eslint/typescript-eslint/issues/791
     // TODO new rules:
