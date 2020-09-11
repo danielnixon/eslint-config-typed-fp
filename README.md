@@ -1,5 +1,9 @@
 # eslint-config-typed-fp
 
+[![dependencies Status](https://david-dm.org/danielnixon/eslint-config-typed-fp/status.svg)](https://david-dm.org/danielnixon/eslint-config-typed-fp)
+[![devDependencies Status](https://david-dm.org/danielnixon/eslint-config-typed-fp/dev-status.svg)](https://david-dm.org/danielnixon/eslint-config-typed-fp?type=dev)
+[![peerDependencies Status](https://david-dm.org/danielnixon/eslint-config-typed-fp/peer-status.svg)](https://david-dm.org/danielnixon/eslint-config-typed-fp?type=peer)
+
 An opinionated ESLint config to encourage pure(ish), typeful functional programming in TypeScript.
 
 ## Installation
