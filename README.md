@@ -24,7 +24,7 @@ yarn add --dev eslint-config-typed-fp \
 
 ## Usage
 
-1. Turn on TypeScript's [strict mode](https://www.typescriptlang.org/tsconfig#strict).
+1. Turn on TypeScript's [strict mode](https://www.typescriptlang.org/tsconfig#strict) and [noUncheckedIndexedAccess](https://devblogs.microsoft.com/typescript/announcing-typescript-4-1-beta/#no-unchecked-indexed-access) option.
 2. Set up [ESLint + TypeScript](https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/README.md).
 3. Update your `.eslintrc.js`:
 
