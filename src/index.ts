@@ -47,7 +47,7 @@ export = {
           // See https://www.typescriptlang.org/docs/handbook/utility-types.html
           // See https://github.com/pelotom/type-zoo#omitstrictt-k-extends-keyof-t
           // See https://github.com/krzkaczor/ts-essentials#Comparison-between-Omit-and-StrictOmit
-          // TODO make this a real rule instead of using `ban-types`: https://github.com/danielnixon/eslint-plugin-total-functions/issues/74
+          // TODO make this a real rule instead of using `ban-types`: https://github.com/danielnixon/eslint-plugin-total-functions/issues/88
           Omit: {
             fixWith: "OmitStrict",
             message:
@@ -65,7 +65,7 @@ export = {
           },
           // Ban built-in mutable types.
           // See https://github.com/danielnixon/readonly-types
-          // TODO make this a real rule instead of using `ban-types` and `no-restricted-globals` (below).
+          // TODO make this a real rule instead of using `ban-types` and `no-restricted-globals` (below): https://github.com/danielnixon/eslint-plugin-total-functions/issues/74
           // TODO don't flag Readonly<Record<...>> as an error (this will require a dedicated rule).
           // See also https://github.com/jonaskello/eslint-plugin-functional/issues/150, which would make this moot.
           Record: {
