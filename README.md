@@ -19,7 +19,7 @@ yarn add --dev eslint-config-typed-fp \
   eslint \
   eslint-plugin-functional \
   eslint-plugin-total-functions \
-  typescript@beta
+  typescript@rc
 ```
 
 ## Usage
