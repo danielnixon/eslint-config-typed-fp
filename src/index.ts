@@ -186,8 +186,6 @@ export = {
         checkImplicit: true,
       },
     ],
-    // TODO replace tslint's no-any and no-unsafe-any
-    // See https://github.com/typescript-eslint/typescript-eslint/issues/791
     // TODO new rules:
     // * [no-base-to-string] doesn't catch toLocaleString https://github.com/typescript-eslint/typescript-eslint/issues/2440
     // * Optional properties lead to unsoundness https://github.com/danielnixon/eslint-plugin-total-functions/issues/39
