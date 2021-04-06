@@ -136,6 +136,7 @@ export = {
     /**
      * Make typescript-eslint rules more aggressive.
      */
+    "@typescript-eslint/no-unsafe-argument": "error",
     "@typescript-eslint/consistent-type-assertions": [
       "error",
       {
