@@ -79,6 +79,7 @@ Here's a selection of articles to motivate "why typed FP":
 * [Dynamic Languages are Static Languages - Robert Harper](https://existentialtype.wordpress.com/2011/03/19/dynamic-languages-are-static-languages/)
 * [Static Optimizability](https://www.lihaoyi.com/post/FromfirstprinciplesWhyIbetonScalajs.html#static-optimizability) from _From first principles: Why I bet on Scala.js_ - Li Haoyi
 * [From Rust to TypeScript - Alan Darmasaputra](https://valand.dev/blog/post/from-rust-to-typescript)
+* https://counterexamples.org/
 
 ## See Also
 
