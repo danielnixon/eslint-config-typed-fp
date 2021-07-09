@@ -1,0 +1,48 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "19:30"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: eslint-config-prettier
+    versions:
+    - 8.0.0
+    - 8.1.0
+    - 8.2.0
+  - dependency-name: type-coverage
+    versions:
+    - 2.15.1
+    - 2.16.0
+    - 2.16.1
+    - 2.16.2
+    - 2.17.1
+  - dependency-name: "@typescript-eslint/eslint-plugin"
+    versions:
+    - 4.14.1
+    - 4.15.1
+    - 4.15.2
+    - 4.16.0
+    - 4.20.0
+  - dependency-name: "@typescript-eslint/parser"
+    versions:
+    - 4.14.1
+    - 4.14.2
+    - 4.15.1
+    - 4.15.2
+    - 4.16.0
+    - 4.20.0
+  - dependency-name: eslint-plugin-jest
+    versions:
+    - 24.1.9
+  - dependency-name: typescript
+    versions:
+    - 4.2.3
+  - dependency-name: ts-jest
+    versions:
+    - 26.5.2
+  - dependency-name: eslint
+    versions:
+    - 7.20.0
