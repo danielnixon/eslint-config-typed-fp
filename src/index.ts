@@ -1,4 +1,6 @@
-export = {
+import { TSESLint } from "@typescript-eslint/experimental-utils";
+
+const config: TSESLint.Linter.Config = {
   globals: {},
   env: {
     commonjs: true,
@@ -194,3 +196,5 @@ export = {
   },
   settings: {},
 };
+
+export = config;
