@@ -1333,7 +1333,7 @@ eslint-plugin-sonarjs@^0.10.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-sonarjs/-/eslint-plugin-sonarjs-0.10.0.tgz#2b520c6d0dbdecbea98cd82f5cb84fc5c3d2b954"
   integrity sha512-FBRIBmWQh2UAfuLSnuYEfmle33jIup9hfkR0X8pkfjeCKNpHUG8qyZI63ahs3aw8CJrv47QJ9ccdK3ZxKH016A==
 
-eslint-plugin-total-functions@^4.10.0:
+eslint-plugin-total-functions@^4.9.0:
   version "4.10.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-total-functions/-/eslint-plugin-total-functions-4.10.0.tgz#ff0ef507774798890b9a0d55bc2997fac5264a5e"
   integrity sha512-/nDeLkAul8qA2/JFtArM74oYm9q6HHrtWi+Ix4xp9aeR652sQWhFW97P9Rg66OACqYMYEu0fwwdsVk6gWzpXdA==
