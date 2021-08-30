@@ -24,7 +24,7 @@ yarn add --dev eslint-config-typed-fp \
 
 ## Usage
 
-1. Turn on TypeScript's [strict mode](https://www.typescriptlang.org/tsconfig#strict), [noUncheckedIndexedAccess](https://www.typescriptlang.org/tsconfig#noUncheckedIndexedAccess) option and [useUnknownInCatchVariables](https://www.typescriptlang.org/tsconfig/#useUnknownInCatchVariables) option./tsconfig#noUncheckedIndexedAccess) option.
+1. Turn on TypeScript's [strict mode](https://www.typescriptlang.org/tsconfig#strict), [noUncheckedIndexedAccess](https://www.typescriptlang.org/tsconfig#noUncheckedIndexedAccess) option and [useUnknownInCatchVariables](https://www.typescriptlang.org/tsconfig/#useUnknownInCatchVariables) option.
 2. Set up [ESLint + TypeScript](https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/README.md).
 3. Update your `.eslintrc.js`:
 
