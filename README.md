@@ -64,6 +64,10 @@ Basically,
 
 See the `extends` and `rules` sections in [index.ts](https://github.com/danielnixon/eslint-config-typed-fp/blob/master/src/index.ts) for the details.
 
+## How can I help?
+
+Check out the TODOs in [index.ts](https://github.com/danielnixon/eslint-config-typed-fp/blob/master/src/index.ts) and of course the [issues](https://github.com/danielnixon/eslint-config-typed-fp/issues). Contributions welcome.
+
 ## Why typed FP?
 
 TypeScript (in)famously considers slavish adherance to type-safety and soundness (at least at the cost of developer ergonomics) a [non-goal](https://github.com/Microsoft/TypeScript/wiki/TypeScript-Design-Goals#non-goals). With this ESLint config we take the opposite position.
