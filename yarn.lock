@@ -1211,10 +1211,10 @@ eslint-config-prettier@^8.1.0:
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.3.0.tgz#f7471b20b6fe8a9a9254cc684454202886a2dd7a"
   integrity sha512-BgZuLUSeKzvlL/VUjx/Yb787VQ26RU3gGjA3iiFvdsp/2bMfVIWUVP7tjxtjS0e+HP409cPlPvNkQloz8C91ew==
 
-eslint-config-typed-fp@^1.7.0:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-typed-fp/-/eslint-config-typed-fp-1.7.0.tgz#239755bab75bbb29d1e994ea7d179ce85f39fcbd"
-  integrity sha512-IqRC2f/Bc5MfmbiF/Aa+qYCz4mMzKLJ5Vc38O8oBQ2IdHg+/3lLvqyZvEcyd9E7zdOFHR7FQ2FSNbfh5v4z8zw==
+eslint-config-typed-fp@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-typed-fp/-/eslint-config-typed-fp-2.0.0.tgz#4b702e4733afe414f825e583a2a5aea7ecb7ff27"
+  integrity sha512-VpPNj3pn3Ic9b2XztPyJuuL/clTKbI0KT5+t6IwC5yumIlsUzHocub3/eP5WuERGxLVMerJ5cv3ZQoGgFnsFtA==
 
 eslint-plugin-functional@^4.0.2:
   version "4.0.2"
@@ -1244,10 +1244,10 @@ eslint-plugin-sonarjs@^0.11.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-sonarjs/-/eslint-plugin-sonarjs-0.11.0.tgz#46d18bc4066c66e490de057253b9cc97bde9f176"
   integrity sha512-ei/WuZiL0wP+qx2KrxKyZs3+eDbxiGAhFSm3GKCOOAUkg+G2ny6TSXDB2j67tvyqHefi+eoQsAgGQvz+nEtIBw==
 
-eslint-plugin-total-functions@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-total-functions/-/eslint-plugin-total-functions-5.0.0.tgz#870c5726d4fb1c8e6156e19ee09ddd11c07de446"
-  integrity sha512-PANgHI5Ub9GcQTziscmlGrCDCkg/thJwwSUVzbkoQN+y5K5Uf1fILNp89IIdkQiLoZHvPGqkqPwk7qhd9EADIA==
+eslint-plugin-total-functions@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-total-functions/-/eslint-plugin-total-functions-5.0.1.tgz#2b15d219d6f499f6905cad08c6d81c49d7bc277c"
+  integrity sha512-OmLzLwHFj+OY5eW2K1UGgOYqWDbZOjYF2mYL5jJEHserpXgBr4ViMg46sZX/PGBMXp5zSdWyQ6AgyhgrdUA0ig==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^5.8.0"
     "@typescript-eslint/experimental-utils" "^5.8.0"
