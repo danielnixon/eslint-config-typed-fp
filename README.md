@@ -93,5 +93,5 @@ Here's a selection of articles to motivate "why typed FP":
 * https://github.com/danielnixon/readonly-types
 * https://github.com/jonaskello/eslint-plugin-functional
 * https://github.com/gcanti/fp-ts
-* https://github.com/plantain-00/type-coverage
+* https://github.com/plantain-00/type-coverage (and its [strict mode](https://github.com/plantain-00/type-coverage#strict-mode))
 * https://github.com/immutable-js/immutable-js
