@@ -91,7 +91,6 @@ Here's a selection of articles to motivate "why typed FP":
 * [Typed functional programming in TypeScript](https://gcanti.github.io/fp-ts/) (fp-ts)
 * https://github.com/danielnixon/eslint-plugin-total-functions
 * https://github.com/danielnixon/readonly-types
-* https://github.com/danielnixon/total-functions
 * https://github.com/jonaskello/eslint-plugin-functional
 * https://github.com/gcanti/fp-ts
 * https://github.com/plantain-00/type-coverage
