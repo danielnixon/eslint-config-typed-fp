@@ -19,7 +19,7 @@ const config: TSESLint.Linter.Config = {
     "plugin:functional/recommended",
     "plugin:functional/external-recommended",
     "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/strict",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "plugin:total-functions/recommended",
   ],
@@ -184,6 +184,10 @@ const config: TSESLint.Linter.Config = {
     "@typescript-eslint/no-unnecessary-condition": "error",
     // See https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/switch-exhaustiveness-check.md
     "@typescript-eslint/switch-exhaustiveness-check": "error",
+    // See https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/require-array-sort-compare.md
+    "@typescript-eslint/require-array-sort-compare": "error",
+    // See https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/non-nullable-type-assertion-style.md
+    "@typescript-eslint/non-nullable-type-assertion-style": "error",
     /**
      * Make eslint-plugin-functional rules more aggressive.
      */
