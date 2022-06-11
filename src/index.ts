@@ -19,8 +19,9 @@ const config: TSESLint.Linter.Config = {
     "plugin:functional/recommended",
     "plugin:functional/external-recommended",
     "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/strict",
+    "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:@typescript-eslint/strict",
     "plugin:total-functions/recommended",
   ],
   rules: {
