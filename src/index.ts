@@ -188,6 +188,8 @@ const config: TSESLint.Linter.Config = {
     "@typescript-eslint/require-array-sort-compare": "error",
     // See https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/non-nullable-type-assertion-style.md
     "@typescript-eslint/non-nullable-type-assertion-style": "error",
+    // See https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/method-signature-style.md
+    "@typescript-eslint/method-signature-style": "error",
     /**
      * Make eslint-plugin-functional rules more aggressive.
      */
