@@ -16,5 +16,16 @@ module.exports = {
     es6: true
   },
   plugins: ["jest", "sonarjs", "functional", "@typescript-eslint", "prettier", "total-functions"],
-  rules: {}
+  rules: {
+    "functional/functional-parameters": [
+      "error",
+      {
+        "ignorePrefixSelector": [
+          "CallExpression[callee.object.name='TE'][callee.property.name='tryCatch']",
+          "CallExpression[callee.object.name='O'][callee.property.name='fold']",
+          "CallExpression[callee.object.name='E'][callee.property.name='fromOption']"
+        ]
+      }
+    ]
+  }
 };
