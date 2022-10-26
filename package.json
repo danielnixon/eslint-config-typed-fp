@@ -23,7 +23,7 @@
     "eslint-plugin-functional": "^4.2.1",
     "eslint-plugin-jest": "^27.0.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-sonarjs": "^0.15.0",
+    "eslint-plugin-sonarjs": "^0.16.0",
     "eslint-plugin-total-functions": "^6.0.0",
     "jest": "^28.1.1",
     "prettier": "^2.6.2",
