@@ -55,7 +55,7 @@ module.exports = {
 Basically,
 * the [recommended rules from ESLint](https://eslint.org/docs/rules/) itself,
 * the [strict](https://github.com/typescript-eslint/typescript-eslint/blob/main/docs/linting/CONFIGS.md#strict) and [recommended-requiring-type-checking](https://github.com/typescript-eslint/typescript-eslint/blob/main/docs/linting/CONFIGS.md#recommended-requiring-type-checking) rules from [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin#supported-rules),
-* the [recommended rules from eslint-plugin-functional](https://github.com/jonaskello/eslint-plugin-functional#rulesets),
+* the [strict rules from eslint-plugin-functional](https://github.com/jonaskello/eslint-plugin-functional#rulesets),
 * the [recommended rules from my own eslint-plugin-total-functions](https://github.com/danielnixon/eslint-plugin-total-functions#rules), plus
 * a selection of rules _not_ included in the recommended rulesets from all the above to encourage typed, functional programming.
 
