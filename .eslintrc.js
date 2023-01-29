@@ -6,13 +6,7 @@ module.exports = {
     sourceType: "module"
   },
   extends: [
-    "eslint:recommended",
-    "plugin:functional/strict",
-    "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/recommended-requiring-type-checking",
-    "plugin:@typescript-eslint/strict",
-    "plugin:total-functions/recommended",
+    "typed-fp",
     "plugin:sonarjs/recommended",
     "plugin:jest/recommended",
     "plugin:prettier/recommended"
