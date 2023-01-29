@@ -1216,9 +1216,9 @@ eslint-config-prettier@^8.6.0:
   integrity sha512-bAF0eLpLVqP5oEVUFKpMA+NnRFICwn9X8B5jrR9FcqnYBuPbqWEjTEspPWMj5ye6czoSLDweCzSo3Ko7gGrZaA==
 
 eslint-config-typed-fp@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-typed-fp/-/eslint-config-typed-fp-4.0.0.tgz#9a03df639301f1124951b2d3e2337c186962aa7c"
-  integrity sha512-KYbfiY3vKyIS6EZ47HykvEcdPz4BoIoDyVkoZMZaayrOasVSqfkeNh7Ud4PpLCJOf7vbPApu173fsu3oHnW+kA==
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-typed-fp/-/eslint-config-typed-fp-4.0.1.tgz#d6ed6dd7c8dd423f855dac233fa37354c90924d7"
+  integrity sha512-wrupT0ztg9xlvNg+VKlnk26OSt4TRSLKlOk8oKHJ2BVJmlcwMHOsynzKGBQ+OKFEa3sws9+OeFOe7mIzuZelWw==
 
 eslint-plugin-functional@^5.0.0:
   version "5.0.0"
