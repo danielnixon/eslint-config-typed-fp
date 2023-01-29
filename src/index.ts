@@ -1,5 +1,6 @@
 import { TSESLint } from "@typescript-eslint/experimental-utils";
 
+// eslint-disable-next-line functional/prefer-immutable-types
 const config: TSESLint.Linter.Config = {
   globals: {},
   env: {
@@ -16,8 +17,7 @@ const config: TSESLint.Linter.Config = {
   },
   extends: [
     "eslint:recommended",
-    "plugin:functional/recommended",
-    "plugin:functional/external-recommended",
+    "plugin:functional/strict",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
@@ -78,13 +78,6 @@ const config: TSESLint.Linter.Config = {
           // Ban built-in mutable types.
           // See https://github.com/danielnixon/readonly-types
           // TODO make this a real rule instead of using `ban-types` and `no-restricted-globals` (below): https://github.com/danielnixon/eslint-plugin-total-functions/issues/74
-          // TODO don't flag Readonly<Record<...>> as an error (this will require a dedicated rule).
-          // See also https://github.com/jonaskello/eslint-plugin-functional/issues/150, which would make this moot.
-          Record: {
-            fixWith: "ReadonlyRecord",
-            message:
-              "The Record type is mutable. Prefer ReadonlyRecord from the readonly-types package.",
-          },
           URL: {
             fixWith: "ReadonlyURL",
             message:
@@ -99,17 +92,6 @@ const config: TSESLint.Linter.Config = {
             fixWith: "ReadonlyDate",
             message:
               "The Date type is mutable. Prefer ReadonlyDate from the readonly-types package.",
-          },
-          // TODO the Map and Set cases could be rendered moot if https://github.com/jonaskello/eslint-plugin-functional/issues/151 lands.
-          Map: {
-            fixWith: "ReadonlyMap",
-            message:
-              "The Map type is mutable. Prefer TypeScript's built-in ReadonlyMap.",
-          },
-          Set: {
-            fixWith: "ReadonlySet",
-            message:
-              "The Set type is mutable. Prefer TypeScript's built-in ReadonlySet.",
           },
         },
       },
@@ -132,17 +114,6 @@ const config: TSESLint.Linter.Config = {
         name: "Date",
         message:
           "Dates are mutable. Prefer readonlyDate and validReadonlyDate from the readonly-types package.",
-      },
-      // TODO the Map and Set cases could be rendered moot if https://github.com/jonaskello/eslint-plugin-functional/issues/151 lands.
-      {
-        name: "Map",
-        message:
-          "Maps are mutable. Prefer readonlyMap from the readonly-types package.",
-      },
-      {
-        name: "Set",
-        message:
-          "Sets are mutable. Prefer readonlySet from the readonly-types package.",
       },
     ],
     /**
