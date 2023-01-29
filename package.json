@@ -41,5 +41,8 @@
     "atLeast": 100,
     "strict": true,
     "detail": true
+  },
+  "engines": {
+    "node": ">=16.10.0"
   }
 }
