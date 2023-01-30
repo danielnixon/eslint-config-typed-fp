@@ -17,11 +17,13 @@ const config: TSESLint.Linter.Config = {
   },
   extends: [
     "eslint:recommended",
-    "plugin:functional/strict",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "plugin:@typescript-eslint/strict",
+    "plugin:functional/strict",
+    "plugin:functional/external-vanilla-recommended",
+    "plugin:functional/external-typescript-recommended",
     "plugin:total-functions/recommended",
   ],
   rules: {
