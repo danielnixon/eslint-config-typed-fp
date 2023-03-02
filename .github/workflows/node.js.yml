@@ -27,6 +27,6 @@ jobs:
     - run: yarn build
     - run: yarn lint
     - run: yarn type-coverage
-    # - run: yarn test
+    - run: yarn test
     # - run: yarn codecov
     # - run: yarn stryker run

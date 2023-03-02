@@ -34,7 +34,7 @@
   "scripts": {
     "build": "tsc",
     "lint": "eslint src --ext .ts,.tsx --report-unused-disable-directives",
-    "format": "prettier --write 'src/**/*.{ts,tsx}'",
+    "test": "eslint src --ext .ts,.tsx --report-unused-disable-directives --config dist/index.js",
     "release": "yarn build && yarn lint && yarn type-coverage && yarn publish"
   },
   "typeCoverage": {
