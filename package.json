@@ -35,7 +35,7 @@
     "build": "tsc",
     "lint": "eslint src --ext .ts,.tsx --report-unused-disable-directives",
     "test": "eslint src --ext .ts,.tsx --report-unused-disable-directives --config dist/index.js",
-    "release": "yarn build && yarn lint && yarn type-coverage && yarn publish"
+    "release": "yarn build && yarn test && yarn lint && yarn type-coverage && yarn publish"
   },
   "typeCoverage": {
     "atLeast": 100,
