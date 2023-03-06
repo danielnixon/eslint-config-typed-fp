@@ -164,19 +164,6 @@ const config: TSESLint.Linter.Config = {
     "@typescript-eslint/non-nullable-type-assertion-style": "error",
     // See https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/method-signature-style.md
     "@typescript-eslint/method-signature-style": "error",
-    /**
-     * Make eslint-plugin-functional rules more aggressive.
-     */
-    "functional/prefer-readonly-type": [
-      "error",
-      {
-        // When you call methods like `filter` and `concat` on an array (_even a readonly_ array) you always get back a mutable array.
-        // By default prefer-readonly-type won't catch these cases, but with the checkImplicit option on it will.
-        // See https://github.com/jonaskello/eslint-plugin-functional/blob/master/docs/rules/prefer-readonly-type.md#checkimplicit
-        // See also https://github.com/danielnixon/readonly-types/issues/7
-        checkImplicit: true,
-      },
-    ],
     // TODO new rules:
     // * [no-base-to-string] doesn't catch toLocaleString https://github.com/typescript-eslint/typescript-eslint/issues/2440
     // * Optional properties lead to unsoundness https://github.com/danielnixon/eslint-plugin-total-functions/issues/39
