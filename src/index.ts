@@ -44,15 +44,6 @@ const config: TSESLint.Linter.Config = {
     /**
      *  Custom rules.
      */
-    // Ban enums.
-    // TODO make this a real rule instead of using `no-restricted-syntax`: https://github.com/danielnixon/eslint-config-typed-fp/issues/284
-    "no-restricted-syntax": [
-      "error",
-      {
-        selector: "TSEnumDeclaration",
-        message: "Don't declare enums",
-      },
-    ],
     "@typescript-eslint/ban-types": [
       "error",
       {
