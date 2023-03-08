@@ -1339,10 +1339,10 @@ eslint-config-prettier@^8.7.0:
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.7.0.tgz#f1cc58a8afebc50980bd53475451df146c13182d"
   integrity sha512-HHVXLSlVUhMSmyW4ZzEuvjpwqamgmlfkutD53cYXLikh4pt/modINRcCIApJ84czDxM4GZInwUrromsDdTImTA==
 
-eslint-config-typed-fp@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-typed-fp/-/eslint-config-typed-fp-4.2.0.tgz#361493f3901c563bb7c43b9a00bf943edbdf65a3"
-  integrity sha512-zft+Ogo7KLerfylrBwHEyxPtKVNNT8CbUjpv22i4/1HkH8jQgYpyq2R4XT1zmOAGFKbU8ftDpcDHa04S1P9e/w==
+eslint-config-typed-fp@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-typed-fp/-/eslint-config-typed-fp-4.3.0.tgz#c853994edec264e8d1eab2138a6dbf40ed6f7e39"
+  integrity sha512-qqKplKPqP9k21njYlZqV1vxDxAuqKe7KFR+xtSpVKg7hpbhrrbFYyl8WS1f0GDSAUvZwrhdjiALWK8o1FWU1/w==
 
 eslint-plugin-functional@^5.0.5:
   version "5.0.5"
@@ -1375,10 +1375,10 @@ eslint-plugin-sonarjs@^0.18.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-sonarjs/-/eslint-plugin-sonarjs-0.18.0.tgz#7c009452f633cf6a4c28387dd50502a3e828b05e"
   integrity sha512-DJ3osLnt6KFdT5e9ZuIDOjT5A6wUGSLeiJJT03lPgpdD+7CVWlYAw9Goe3bt7SmbFO3Xh89NOCZAuB9XA7bAUQ==
 
-eslint-plugin-total-functions@^6.2.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-total-functions/-/eslint-plugin-total-functions-6.2.0.tgz#f3890679c9ff77e6fbce108350b4c49cb95b93b8"
-  integrity sha512-iHMiNDqm+mnBZhUOVHB58Z+gnayROIyWTWtOUbmW7XlL01ES9c84FcbAMzWjuwKm6Nf5gyhnxVJ29r1k/KWT5A==
+eslint-plugin-total-functions@^6.3.0:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-total-functions/-/eslint-plugin-total-functions-6.3.0.tgz#5b0e90cc34e7e438999d597054b554552453a1ec"
+  integrity sha512-Tuhzr/zTY+xi04dFcr1Rj5oTbcdvz926Wogy/v2Y0ZbwBEucR6AGKctZPXKTPmEGOmcA3DBhNM+38cPo7XVarg==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^5.54.1"
     "@typescript-eslint/parser" "^5.54.1"
