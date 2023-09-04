@@ -91,9 +91,6 @@ const config: TSESLint.Linter.Config = {
     ],
     // Interfaces encourage OO, types encourage FP.
     "@typescript-eslint/consistent-type-definitions": ["error", "type"],
-    // Require unknown type annotation in catch blocks.
-    // See https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-implicit-any-catch.md
-    "@typescript-eslint/no-implicit-any-catch": "error",
     // Don't need this given consistent-type-assertions bans type assertions entirely.
     "total-functions/no-unsafe-type-assertion": 0,
     // All methods on the `object` top type should be forbidden, they're an OOism.
