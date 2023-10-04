@@ -92,3 +92,4 @@ Here's a selection of articles to motivate "why typed FP":
 * https://github.com/gcanti/fp-ts
 * https://github.com/plantain-00/type-coverage (and its [strict mode](https://github.com/plantain-00/type-coverage#strict-mode))
 * https://github.com/immutable-js/immutable-js
+* https://github.com/uhyo/better-typescript-lib
