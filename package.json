@@ -9,7 +9,7 @@
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.5.0",
     "@typescript-eslint/parser": "^6.5.0",
-    "eslint": "^8.48.0",
+    "eslint": "^9.0.0",
     "eslint-plugin-functional": "^6.0.0",
     "eslint-plugin-total-functions": "^7.1.0",
     "typescript": "^5.2.2"
@@ -17,7 +17,7 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.17.0",
     "@typescript-eslint/parser": "^6.17.0",
-    "eslint": "^8.56.0",
+    "eslint": "^9.0.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-typed-fp": "^5.4.0",
     "eslint-plugin-functional": "^6.0.0",
